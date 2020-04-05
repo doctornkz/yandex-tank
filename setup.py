@@ -19,7 +19,7 @@ analytic tools for the results they produce.
         'cryptography>=2.2.1', 'pyopenssl==18.0.0',
         'psutil>=1.2.1', 'requests>=2.5.1', 'paramiko>=1.16.0',
         'pandas==0.24.2', 'numpy==1.15.4', 'future>=0.16.0',
-        'pip>=8.1.2',
+        'pip>=8.1.2', 'six>=1.12.0',
         'pyyaml>=4.2b1', 'cerberus==1.3.1', 'influxdb>=5.0.0', 'netort>=0.7.7',
         'retrying>=1.3.3', 'pytest-runner', 'typing'
     ],
