@@ -50,6 +50,7 @@ SECTIONS_PATTERNS = {
     'Pandora': 'pandora',
     'InfluxUploader': 'influx',
     'OpenTSDBUploader': 'opentsdb',
+    'SignalfxUploader': 'signalfx',
 
 }
 

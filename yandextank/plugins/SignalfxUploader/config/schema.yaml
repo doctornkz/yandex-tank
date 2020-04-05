@@ -1,0 +1,21 @@
+tank_tag:
+  default: unknown
+  type: string
+api_url:
+  default: https://ingest.signalfx.com
+  type: string
+token_file:
+  default: sfx_token.txt
+  type: string
+custom_tags:
+  default: {}
+  type: dict
+sf_hires: 
+  default: "1"
+  type: string
+dashboard_url:
+  default: ""
+  type: string
+project:
+  default: ""
+  type: string

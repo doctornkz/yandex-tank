@@ -92,8 +92,10 @@ ENV/
 tmp/
 yandex-tank.iml
 .idea/
-
+.vscode/
 .pytest_cache/
 *.tld.cfg
 logs/
 *.DS_Store
+load.yaml
+sfx_token.txt
