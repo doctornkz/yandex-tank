@@ -1,6 +1,6 @@
 # Yandex Tank [![Build Status](https://travis-ci.org/yandex/yandex-tank.svg?branch=master)](https://travis-ci.org/yandex/yandex-tank) [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/yandex/yandex-tank?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-#### Yandextank 1.9.0 now available! Read [release notes](https://github.com/yandex/yandex-tank/wiki/Release-1.9.0).
+#### News: Added SignalFX support. See: Wiki page.
 
 Yandex.Tank is an extensible open source load testing tool for advanced linux users which is especially good as a part of an automated load testing suite
 
