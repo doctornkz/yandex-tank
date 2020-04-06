@@ -4,7 +4,7 @@
 
 Yandex.Tank is an extensible open source load testing tool for advanced linux users which is especially good as a part of an automated load testing suite
 
-![Quantiles chart example](/logos/screen.png)
+![Quantiles chart example](/logos/sfx_screen.png)
 
 ## Main features
 * different load generators supported:
