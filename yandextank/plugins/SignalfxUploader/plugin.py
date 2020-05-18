@@ -31,7 +31,10 @@ class Plugin(AbstractPlugin, AggregateResultListener):
         self.project = self.get_option("project")
         self.end_time = None
         self.headers = {'Content-Type': 'application/json', 'X-SF-TOKEN': self.token}
-        self.uuid = str(uuid4())
+        # Generates uuid without "-" to avoid conflict in dimensions.
+        # Read details here: 
+        # https://community.signalfx.com/s/article/Timestamp-and-UUID-data-not-allowable-in-Dimension-values
+        self.uuid = str(uuid4()).replace("-", "") 
         self.decoder = Decoder(
             self.tank_tag,
             self.uuid,
